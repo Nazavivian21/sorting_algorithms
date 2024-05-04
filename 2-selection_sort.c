@@ -22,13 +22,13 @@ void selection_sort(int *array, size_t size)
 			{
 				k = j;
 			}
-			if (array[i] > array[k])
-			{
-				tmp = array[i];
-				array[i] = array[j];
-				array[j] = tmp;
-				print_array(array, size);
-			}
+		}
+		if (array[i] > array[k])
+		{
+			tmp = array[i];
+			array[i] = array[j];
+			array[j] = tmp;
+			print_array(array, size);
 		}
 	}
 }
