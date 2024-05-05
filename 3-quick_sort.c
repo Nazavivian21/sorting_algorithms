@@ -39,7 +39,7 @@ int partition(int *array, int first, int last, size_t size)
 }
 
 /**
- * qs - sorts an array of integers recursively
+ * quick - sorts an array of integers recursively
  * @array: array to sort
  * @first: first position
  * @last: last position
